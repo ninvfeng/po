@@ -33,7 +33,7 @@
 </head>
 <body>
     <div class="main">
-        <h1>识别图片文本小工具，请使用ctrl+v粘贴截图</h1>
+        <h1>Paste OCR识别图片文本小工具，请使用ctrl+v粘贴截图</h1>
         <div class="img"><img src=""></div>
         <div class="text" contenteditable></div>        
     </div>
