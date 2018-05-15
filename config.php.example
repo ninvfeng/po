@@ -1,0 +1,6 @@
+<?php
+//腾讯OCR识别配置 访问https://ai.qq.com/product/ocr.shtml获取
+return [
+    'app_id'=>'xxx',
+    'app_key'=>'xxx'
+];
