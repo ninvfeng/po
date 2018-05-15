@@ -6,5 +6,5 @@
 
 ## 使用步骤
 1. 下载代码
-2. 注册腾讯AI并获取OCR的appid和appkey https://ai.qq.com/product/ocr.shtml
+2. 注册腾讯AI并获取OCR的app_id和app_key https://ai.qq.com/product/ocr.shtml
 3. 将config.php.example重命名为config.php并将上一步获取的appid和appkey填入
