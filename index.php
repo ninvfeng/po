@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-    <title>Paste OCR</title>
+    <title>Paste OCR|截图文本识别</title>
     <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/paste.js/0.0.21/paste.min.js"></script>
     <style>
