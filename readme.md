@@ -2,7 +2,7 @@
 
 ## Paste OCR 意为粘贴并识别
 
-## Live Demo https://po.ninvfeng.com
+## Demo https://po.ninvfeng.com
 
 ## 使用步骤
 1. 下载代码
