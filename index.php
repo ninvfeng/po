@@ -46,16 +46,17 @@
     <div class="main">
         <h1>Paste OCR识别图片文本小工具，请使用ctrl+v粘贴截图</h1>
         <div class="img"><img src=""></div>
-        <div class="text" contenteditable></div>        
+        <div id="res" class="text" contenteditable></div>        
     </div>
     <script type="text/javascript">
         $(function () {
             $('*').pastableNonInputable();
             $('*').on('pasteImage', function (ev, data) {
-                console.log(data)
                 $("img").attr('src',data.dataURL)
                 $.post('',{img:data.dataURL},res=>{
                     $(".text").html(res);
+                    document.getElementById("res").focus();
+                    document.getElementById("res").select();
                 })
             })
         });
