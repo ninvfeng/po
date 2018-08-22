@@ -55,8 +55,8 @@
                 $("img").attr('src',data.dataURL)
                 $.post('',{img:data.dataURL},res=>{
                     $(".text").html(res);
-                    document.getElementById("res").focus();
-                    document.getElementById("res").select();
+                    $("#res").focus();
+                    $("#res").select();
                 })
             })
         });
