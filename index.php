@@ -44,6 +44,7 @@
 </head>
 <body>
     <div class="main">
+        <h2>腾讯识别接口不可用, 推荐使用: <a href="https://web.baimiaoapp.com">https://web.baimiaoapp.com</a></h2>
         <h1>Paste OCR识别图片文本小工具，请使用ctrl+v粘贴截图</h1>
         <div class="img"><img src=""></div>
         <div id="res" class="text" contenteditable></div>        
@@ -88,7 +89,7 @@ if($_POST){
     //执行API调用
     $url = 'https://api.ai.qq.com/fcgi-bin/ocr/ocr_generalocr';
     $data = http($url, $params,"POST");
-
+    
     //处理返回结果
     $data=json_decode($data,true)['data']['item_list'];
     $res='';
